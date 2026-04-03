@@ -87,9 +87,9 @@ def frequency_map_shortestWay():
     print(hash_map)
 
 
-# frequency_map_shortestWay()
-# frequency_map_way1()
-# counting_number()
-# palindrome()
-# armstrong()
-# factor()
+frequency_map_shortestWay()
+frequency_map_way1()
+counting_number()
+palindrome()
+armstrong()
+factor()
