@@ -1,4 +1,4 @@
-# selection sort                 n2
+# selection sort                 
 nums = [3,4,5,2,1,6,0,7]
 
 
