@@ -1,4 +1,4 @@
-def hashing_usingList():          #given that data is betweeen 0 to 10       TC=O( i + j)
+def hashing_usingList():          #given that data is betweeen 0 to 10       
     data_list=[1,2,1,3,4,6,7,8,9,0,7,6,4,3,5,7,8,9,1,2,3,3,4,5,6,7,8,0,0]
     counting_list=[1,4,7,11,2,3,6,-5,10,99]
 
