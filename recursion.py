@@ -1,4 +1,3 @@
-# Recursion Problems 
 
 # printing number
 n=15
@@ -12,9 +11,7 @@ def count(n, upto):
         count(n, upto)
 
 count(n,upto)
-
 # printing sum
-
 def sum(total_sum,i,n):
     if i>n:
         print(total_sum)
@@ -24,7 +21,7 @@ def sum(total_sum,i,n):
 
 sum(0,1,20)
 
-# sum with different
+# different way
 
 def sum(n):
     if n==1:
