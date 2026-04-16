@@ -8,7 +8,6 @@ def counting_number():
     while number!=0:
         count=count+1
         number=number//10
-
     print(f"Number of Digits are : {count}")
 
 # Palindrome                            TC = o ( log n )
@@ -21,7 +20,6 @@ def palindrome():
         last_digit=num%10
         checking_no=(checking_no*10)+last_digit
         num=num//10
-
     if checking_no==no:
         print("True")
     else:
@@ -36,12 +34,10 @@ def armstrong():
     total=0
     for i in str(n):
         nod+=1
-
     while temp>0:
         digit=temp%10
         total+=digit**nod
         temp=temp//10
-
     if total==n:
         print("Armstrong Number")
     else:
@@ -52,7 +48,6 @@ def armstrong():
 def factor():
     num=100
     result=[]
-
     for i in range(1,int(sqrt(num)+1)):
         if num%i==0:
             result.append(i)
