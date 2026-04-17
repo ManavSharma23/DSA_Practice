@@ -60,8 +60,6 @@ def hashing_characters_usingDict():
         else:
             print(j,":",0)
 
-
-
 hashing_characters_usingDict()
 hashing_characters()
 hashing_usingDict()
