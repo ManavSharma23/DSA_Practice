@@ -70,7 +70,7 @@ def frequency_map_way1():
             frequency_dict[list1[i]] = 1
 
     print(frequency_dict)
-
+# Same question different way 
 def frequency_map_shortestWay():
     list1 = [1, 2, 3, 4, 3, 2, 1, 2, 3, 4, 5, 6, 4, 2, 3, 4, 1, 6]
     hash_map={}
@@ -81,7 +81,7 @@ def frequency_map_shortestWay():
 
     print(hash_map)
 
-
+#all the functions
 frequency_map_shortestWay()
 frequency_map_way1()
 counting_number()
