@@ -11,10 +11,14 @@ def count(n, upto):
         count(n, upto)
 
 count(n,upto)
+
 # printing sum
+
 def sum(total_sum,i,n):
     if i>n:
+        
         print(total_sum)
+        
         return
 
     sum(total_sum+i,i+1,n)
