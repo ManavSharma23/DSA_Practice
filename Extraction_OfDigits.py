@@ -43,7 +43,7 @@ def armstrong():
     else:
         print("Not A Armstrong Number")
 
-# Factors                           TC= o(root n ) + o ( n log n )
+# Factors                           TC = o(root n ) + o ( n log n )
 
 def factor():
     num=100
@@ -57,7 +57,7 @@ def factor():
     result.sort()
     print(result)
 
-# Store Frequency in a dictionary                TC=o(n)
+# Store Frequency in a dictionary                TC = o( n )
 
 def frequency_map_way1():
     list1=[1,2,3,4,3,2,1,2,3,4,5,6,4,2,3,4,1,6]
