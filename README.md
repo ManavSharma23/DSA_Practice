@@ -1,6 +1,6 @@
 # DSA Practice 🚀
 
-This repository contains my practice implementations of Data Structures and Algorithms using Python.
+This repository contains my practice implementations of Data Structure and Algorithm using Python.
 
 ## 📂 Files Included
 
