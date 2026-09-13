@@ -27,3 +27,15 @@ def palindrome(word,left,right):
     return palindrome(word,left+1,right-1)
     
 print(palindrome(word,0,len(word)-1))
+
+# fibbionacci
+
+n=4
+
+def fibbionaci(n):
+    if n==0 or n==1:
+        return n
+        
+    return fibbionaci(n-1)+fibbionaci(n-2)
+    
+print(fibbionaci(n))
